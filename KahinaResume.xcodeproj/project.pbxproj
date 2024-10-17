@@ -6,63 +6,33 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXContainerItemProxy section */
-		ECC3EAB02CC14659006923AF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = ECC3EA972CC14658006923AF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = ECC3EA9E2CC14658006923AF;
-			remoteInfo = KahinaResume;
-		};
-		ECC3EABA2CC14659006923AF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = ECC3EA972CC14658006923AF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = ECC3EA9E2CC14658006923AF;
-			remoteInfo = KahinaResume;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		ECC3EA9F2CC14658006923AF /* KahinaResume.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KahinaResume.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		ECC3EAAF2CC14659006923AF /* KahinaResumeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KahinaResumeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		ECC3EAB92CC14659006923AF /* KahinaResumeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KahinaResumeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		ECC3EADD2CC15FC4006923AF /* Exceptions for "KahinaResume" folder in "KahinaResume" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = ECC3EA9E2CC14658006923AF /* KahinaResume */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		ECC3EAA12CC14658006923AF /* KahinaResume */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				ECC3EADD2CC15FC4006923AF /* Exceptions for "KahinaResume" folder in "KahinaResume" target */,
+			);
 			path = KahinaResume;
-			sourceTree = "<group>";
-		};
-		ECC3EAB22CC14659006923AF /* KahinaResumeTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = KahinaResumeTests;
-			sourceTree = "<group>";
-		};
-		ECC3EABC2CC14659006923AF /* KahinaResumeUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = KahinaResumeUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		ECC3EA9C2CC14658006923AF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ECC3EAAC2CC14659006923AF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ECC3EAB62CC14659006923AF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,8 +46,6 @@
 			isa = PBXGroup;
 			children = (
 				ECC3EAA12CC14658006923AF /* KahinaResume */,
-				ECC3EAB22CC14659006923AF /* KahinaResumeTests */,
-				ECC3EABC2CC14659006923AF /* KahinaResumeUITests */,
 				ECC3EAA02CC14658006923AF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,8 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				ECC3EA9F2CC14658006923AF /* KahinaResume.app */,
-				ECC3EAAF2CC14659006923AF /* KahinaResumeTests.xctest */,
-				ECC3EAB92CC14659006923AF /* KahinaResumeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,52 +83,6 @@
 			productReference = ECC3EA9F2CC14658006923AF /* KahinaResume.app */;
 			productType = "com.apple.product-type.application";
 		};
-		ECC3EAAE2CC14659006923AF /* KahinaResumeTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = ECC3EAC62CC14659006923AF /* Build configuration list for PBXNativeTarget "KahinaResumeTests" */;
-			buildPhases = (
-				ECC3EAAB2CC14659006923AF /* Sources */,
-				ECC3EAAC2CC14659006923AF /* Frameworks */,
-				ECC3EAAD2CC14659006923AF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				ECC3EAB12CC14659006923AF /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				ECC3EAB22CC14659006923AF /* KahinaResumeTests */,
-			);
-			name = KahinaResumeTests;
-			packageProductDependencies = (
-			);
-			productName = KahinaResumeTests;
-			productReference = ECC3EAAF2CC14659006923AF /* KahinaResumeTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		ECC3EAB82CC14659006923AF /* KahinaResumeUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = ECC3EAC92CC14659006923AF /* Build configuration list for PBXNativeTarget "KahinaResumeUITests" */;
-			buildPhases = (
-				ECC3EAB52CC14659006923AF /* Sources */,
-				ECC3EAB62CC14659006923AF /* Frameworks */,
-				ECC3EAB72CC14659006923AF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				ECC3EABB2CC14659006923AF /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				ECC3EABC2CC14659006923AF /* KahinaResumeUITests */,
-			);
-			name = KahinaResumeUITests;
-			packageProductDependencies = (
-			);
-			productName = KahinaResumeUITests;
-			productReference = ECC3EAB92CC14659006923AF /* KahinaResumeUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -175,14 +95,6 @@
 				TargetAttributes = {
 					ECC3EA9E2CC14658006923AF = {
 						CreatedOnToolsVersion = 16.0;
-					};
-					ECC3EAAE2CC14659006923AF = {
-						CreatedOnToolsVersion = 16.0;
-						TestTargetID = ECC3EA9E2CC14658006923AF;
-					};
-					ECC3EAB82CC14659006923AF = {
-						CreatedOnToolsVersion = 16.0;
-						TestTargetID = ECC3EA9E2CC14658006923AF;
 					};
 				};
 			};
@@ -201,28 +113,12 @@
 			projectRoot = "";
 			targets = (
 				ECC3EA9E2CC14658006923AF /* KahinaResume */,
-				ECC3EAAE2CC14659006923AF /* KahinaResumeTests */,
-				ECC3EAB82CC14659006923AF /* KahinaResumeUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		ECC3EA9D2CC14658006923AF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ECC3EAAD2CC14659006923AF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ECC3EAB72CC14659006923AF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -239,34 +135,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ECC3EAAB2CC14659006923AF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ECC3EAB52CC14659006923AF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		ECC3EAB12CC14659006923AF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = ECC3EA9E2CC14658006923AF /* KahinaResume */;
-			targetProxy = ECC3EAB02CC14659006923AF /* PBXContainerItemProxy */;
-		};
-		ECC3EABB2CC14659006923AF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = ECC3EA9E2CC14658006923AF /* KahinaResume */;
-			targetProxy = ECC3EABA2CC14659006923AF /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		ECC3EAC12CC14659006923AF /* Debug */ = {
@@ -399,6 +268,7 @@
 				DEVELOPMENT_TEAM = SC2Q7DC8ST;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KahinaResume/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,6 +298,7 @@
 				DEVELOPMENT_TEAM = SC2Q7DC8ST;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KahinaResume/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -443,78 +314,6 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		ECC3EAC72CC14659006923AF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = SC2Q7DC8ST;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kahina.lounis.KahinaResumeTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KahinaResume.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KahinaResume";
-			};
-			name = Debug;
-		};
-		ECC3EAC82CC14659006923AF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = SC2Q7DC8ST;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kahina.lounis.KahinaResumeTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KahinaResume.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KahinaResume";
-			};
-			name = Release;
-		};
-		ECC3EACA2CC14659006923AF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = SC2Q7DC8ST;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kahina.lounis.KahinaResumeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = KahinaResume;
-			};
-			name = Debug;
-		};
-		ECC3EACB2CC14659006923AF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = SC2Q7DC8ST;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kahina.lounis.KahinaResumeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = KahinaResume;
 			};
 			name = Release;
 		};
@@ -535,24 +334,6 @@
 			buildConfigurations = (
 				ECC3EAC42CC14659006923AF /* Debug */,
 				ECC3EAC52CC14659006923AF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		ECC3EAC62CC14659006923AF /* Build configuration list for PBXNativeTarget "KahinaResumeTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				ECC3EAC72CC14659006923AF /* Debug */,
-				ECC3EAC82CC14659006923AF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		ECC3EAC92CC14659006923AF /* Build configuration list for PBXNativeTarget "KahinaResumeUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				ECC3EACA2CC14659006923AF /* Debug */,
-				ECC3EACB2CC14659006923AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
