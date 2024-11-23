@@ -16,41 +16,37 @@ let resumeData: [ResumeSection] = [
       headline: "September 2021 - March 2024",
       image: "EuropcarLogo",
       description: """
-        On Chapter Side I have been working on:
-        Release management of Europcar application.
-        UITests using Quick and Nimble.
-        Migration UIKit to SwiftUI starting by atomic components to have in the end the app in swiftUI.
-        Fixing Europcar compilation warnings (force cast, force unwrap , deprecation warnings).
-        On Squad (customer account) Part I have been working on fixing defects on production and working on new features as:
-        Manage Push notification in préférences section.
-        Send delete account request to europcar customer service.
-        Make driver license informations modifiable.
-        Add tracking CTA and A/B tests with firebase.
-        Implementation of agreement API calls 
-        repeat
-        On Chapter Side I have been working on:
-        Release management of Europcar application.
-        UITests using Quick and Nimble.
-        Migration UIKit to SwiftUI starting by atomic components to have in the end the app in swiftUI.
-        Fixing Europcar compilation warnings (force cast, force unwrap , deprecation warnings).
-        On Squad (customer account) Part I have been working on fixing defects on production and working on new features as:
-        Manage Push notification in préférences section.
-        Send delete account request to europcar customer service.
-        Make driver license informations modifiable.
-        Add tracking CTA and A/B tests with firebase.
-        Implementation of agreement API calls
-        repeatX2
-        On Chapter Side I have been working on:
-        Release management of Europcar application.
-        UITests using Quick and Nimble.
-        Migration UIKit to SwiftUI starting by atomic components to have in the end the app in swiftUI.
-        Fixing Europcar compilation warnings (force cast, force unwrap , deprecation warnings).
-        On Squad (customer account) Part I have been working on fixing defects on production and working on new features as:
-        Manage Push notification in préférences section.
-        Send delete account request to europcar customer service.
-        Make driver license informations modifiable.
-        Add tracking CTA and A/B tests with firebase.
-        Implementation of agreement API calls 
+        Chapter Responsibilities:
+        Collaborated with a team of 10 iOS developers (COP iOS), each dedicated to their respective squads, while contributing to chapter-level tasks.
+        
+        Participated in daily meetings and weekly knowledge-sharing sessions to promote team alignment and growth, creating and delivering tips and technical presentations during team-sharing sessions to enhance iOS team expertise.
+        
+        Key contributions included:
+        
+        Release management of the Europcar application, ensuring smooth and timely deployments.
+        
+        Developing and maintaining UI Tests using Quick and Nimble to enhance test reliability and coverage.
+        
+        Participating on the migration from UIKit to SwiftUI, starting with atomic components to establish a scalable SwiftUI architecture for the entire application.
+        
+        Resolving critical compilation warnings, such as force-cast, force-unwrap, and deprecation warnings, to improve codebase quality and maintainability.
+        
+        
+        Squad-Specific (Customer Account) Responsibilities:
+        Collaborated daily with a cross-functional team consisting of Product Owners, QAs, designers, backend engineers, Android, and web developers.
+        Actively participated in Agile sprint ceremonies, including grooming, planning, reviews, and retrospectives,  with rotating Scrum Master responsibilities.
+        
+        Delivered new features and resolved production defects at various levels, including:
+        
+        Push notification management within the preferences section.
+        
+        Implementation of an account deletion request feature, enabling users to submit requests directly to Europcar customer service.
+        
+        Allowing users to modify driver license information, enhancing customer flexibility.
+        
+        Integrating tracking CTAs and conducting A/B tests using Firebase for data-driven decision-making.
+        
+        Developing and deploying agreement API calls to manage user agreements effectively.
         """
     ),
     ResumeSection(
@@ -80,12 +76,16 @@ let resumeData: [ResumeSection] = [
       headline: "Soft and technical skills",
       image: "Skills2",
       description: """
-        a lot of skills
+        release management
+        git commands
+        tickets management (jira)
+        bitrise
+        firebise tracking and A/B testing
         """
     ),
     ResumeSection(
       title: "Languages",
-      headline: "English - French - Kabyle",
+      headline: "Three years of profesionnal experience working in english",
       image: "Languages",
       description: """
       English - French - Kabyle
