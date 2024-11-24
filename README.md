@@ -2,6 +2,5 @@
 My CV/Resume with SwiftUI
 
 
-<div style="display: flex; flex-direction: column; align-items: center; gap: 5px;">
-  https://github.com/user-attachments/assets/26f956af-7ce5-450a-add2-2920ae0c871e
-</div>
+
+![Untitled design-2](https://github.com/user-attachments/assets/b3afec59-8b38-429f-8d3d-8d2e893f6583)
